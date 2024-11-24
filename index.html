@@ -79,6 +79,33 @@
 <!--                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
 
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+
+                  <span class="link-block">
+                    <a href="https://drive.google.com/drive/folders/1fucpn7PBAI3THwmXchg_5T9dDQ_M9UWa?usp=share_link" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-google-drive"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://drive.google.com/drive/folders/1fucpn7PBAI3THwmXchg_5T9dDQ_M9UWa?usp=share_link" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+                  <span>L-CIR Dataset</span>
+                </a>
+              </span>
+            </div>
+          </div>
+
+
             </div>
           </div>
         </div>
@@ -122,6 +149,7 @@
         </div>
       </div>
           </div>
+          <br>
 
           <div class="item">
             <!-- Your image here -->
@@ -140,10 +168,13 @@
               </div>
             </div>
           </div>
-
+          <br>
+          <hr>
           <div class="item">
             <!-- Your image here -->
+            <h2 class="title is-3">L-CIR Datasets Construction</h2>
             <div class="columns is-centered has-text-centered">
+
               <div class="column is-two-fourth">
                 <img src="static/images/DataProcess.png" alt="MY ALT TEXT"/>
                 <h2 class="subtitle has-text-centered">
@@ -157,8 +188,33 @@
               </div>
             </div>
           </div>
+          <br>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/Prompts.png" alt="MY ALT TEXT"/>
+            <h2 class="subtitle has-text-centered">
+              Generated LMTs using various prompts for BLIP-3
+            </h2>
+          </div>
+          <br>
+
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/False_Negative.png" alt="MY ALT TEXT"/>
+          </div>
+          <br>
+          <div class="item">
+            <!-- Your image here -->
+            <img src="static/images/False_Negative_CIRR.png" alt="MY ALT TEXT"/>
+            <h2 class="subtitle has-text-centered">
+              The mitigation on the false-negative samples when using LMT. We showed the top-5 retrieved results on both L-CIR and CIR. The target images are framed in green.
+            </h2>
+          </div>
+          <br>
 
 
+<hr>
       </div>
     </div>
   </div>
@@ -177,7 +233,7 @@
             Overall architecture of our proposed LEMA.
           </h2>
           </div>
-
+          <hr>
   <!-- </div> -->
 </div>
 </div>
@@ -187,7 +243,7 @@
 
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container  has-text-centered">
+    <div class="container has-text-centered">
       <h2 class="title is-3">Experiment</h2>
       <!-- <div id="results-carousel" class="carousel results-carousel"> -->
         <div class="item">
@@ -197,6 +253,15 @@
         <br>
         <div class="item">
           <!-- Your image here -->
+          <img src="static/images/Sensitivity.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Sensitivity results of the hyper-parameter κ on L-CIRR and the hyper-parameter μ on both L-FashionIQ and L-CIRR.
+          </h2>
+        </div>
+        <br>
+
+        <div class="item">
+          <!-- Your image here -->
           <img src="static/images/Case.png" alt="MY ALT TEXT"/>
           <h2 class="subtitle has-text-centered">
             The qualitative results for the PA module, which shows the LMT and corresponding summary. The to-be-modified entities are colored.
@@ -204,8 +269,23 @@
         </div>
         <br>
 
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/Attention.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Attention visualization results for the reference image on L-FashionIQ by the PA-generated summary.
+          </h2>
+        </div>
+        <br>
 
-
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/Attention_CIRR.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Attention visualization results for the reference image on L-CIRR by the PA-generated summary.
+          </h2>
+        </div>
+        <br>
 
   <!-- </div> -->
 </div>
@@ -214,12 +294,12 @@
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+  <!-- <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code></code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
